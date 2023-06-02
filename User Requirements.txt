@@ -1,0 +1,55 @@
+﻿User Requirements
+Hardware Requirements
+The following describes the hardware needed in order to execute and develop an augmented reality travel application:
+* Computer Desktop or Laptop
+The computer desktop or laptop will be used for building the application. 
+The system must have:
+   * 64-bit Microsoft Windows 8/10/11
+   * X86_64 CPU architecture; 2nd generation Intel Core or newer, or AMD CPU with support for a Windows Hypervisor
+   * 8 GB RAM or more
+   * 8 GB of available disk space minimum
+
+
+
+
+* Smartphones  
+   *  iOS player requires iOS 9.0 or higher.
+   * Android: OS 6.0 or later; ARMv7 CPU with NEON support or Atom CPU; OpenGL ES 2.0 or later.
+
+
+
+
+Software Requirements
+
+
+Software
+	Requirements
+	ARCore
+	1.10+ or newer version
+	Android Version
+	7.0+ (Nougat) or newer version
+	
+
+
+
+For the software requirements, the device has to be able to support the ARCore that can be found in the Google Play Store. As long as the device is within the device-supported list of ARCore, the proposed application can work perfectly.
+
+
+
+
+Connectivity Requirements
+
+
+Connectivity
+	Requirements
+	Wifi/Data Connection
+	Recommended
+	Bluetooth
+	Not Required
+	GPS Service
+	Recommended
+	
+
+
+
+Both WiFi/Data connection and GPS service are not an essential requirement to use this application. The application is workable in an offline status with a limited number of features. However, GPS service is required for the pedestrian navigation feature as it will provide the location information for the application so that the feature is able to function well. WiFi/Data connection is recommended as well when using the pedestrian navigation feature to improve the accuracy of the location information as it can help to retrieve the longitude and latitude data from Geolocation API.
